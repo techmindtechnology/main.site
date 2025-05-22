@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="YoungMindTech, technology solutions, software development, web design, digital marketing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoungMindTech - Leading Technology Solutions</title>
+    <meta name="description" content="YoungMindTech is a leading technology solutions provider, specializing in innovative software development, web design, and digital marketing services.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="YoungMindTech">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="./favicon-32x32.png">
+    <link rel="stylesheet" href="./tech.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader"></div>
+    
+    <!-- Chat Widget Container -->
+    <div id="chat-widget-container">
+        <!-- Chat Button -->
+        <div id="chat-button" class="bounce">
+            <i class="fas fa-comments"></i>
+            <div id="notification-badge">1</div>
+        </div>
+        
+        <!-- Chat Window -->
+        <div id="chat-window">
+            <!-- Chat Header -->
+            <div id="chat-header">
+                <h3><i class="fas fa-headset"></i> YoungMindTech Support</h3>
+                <button id="chat-close"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <!-- Chat Messages -->
+            <div id="chat-messages">
+                <div class="message support-message">
+                    Hello there! 👋 Welcome to YoungMindTech. How can we help you today?
+                </div>
+                <div class="message support-message">
+                    our simple questions you can ask. <br>
+                    <strong>pricing</strong><br>
+                    <strong>contact</strong><br>
+                   <strong> services</strong><br>
+                   <strong> job</strong><br>
+                </div>
+            </div>
+            
+            <!-- Chat Input -->
+            <div id="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Type your message here...">
+                <button id="chat-send"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Header and Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Young<span>MindTech</span></a>
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round"></span>
+                </label>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Innovative Technology Solutions for Your Business</h1>
+                <p>We help businesses transform and thrive in the digital age with cutting-edge technology solutions tailored to your specific needs.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn">Our Services</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- About Section -->
+     <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Us</h2>
+            <p class="section-subtitle fade-in">Learn more about our company and mission</p>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2>We Provide Innovative Technology Solutions</h2>
+                    <p>YMT which was founded in 2025. At Young Mind Technology, our mission is to empower the next generation through innovation, creativity, and cutting-edge technological solutions.</p>
+                    <p>We are committed to transforming ideas into impactful digital experiences that shape the future. By nurturing young talent and embracing emerging technologies, we aim to build a smarter, more connected world—one innovation at a time.</p>
+                    <p>We believe in building long-term relationships with our clients, becoming trusted partners in their growth journey.</p>
+                    <a href="#services" class="btn">Explore Our Services</a>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="./logo.jpg" alt="About Our Company">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Services</h2>
+            <p class="section-subtitle fade-in">What we offer to our clients</p>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">🖥️</div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p>We create custom, responsive websites and web applications that help businesses establish a strong online presence and reach their target audience effectively.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-title">Mobile App Development</h3>
+                    <p>Our team develops high-performance, user-friendly mobile applications for iOS and Android platforms that engage users and drive business growth.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">⚙️</div>
+                    <h3 class="service-title">Software Solutions</h3>
+                    <p>We design and develop custom software solutions tailored to meet the specific needs and challenges of your business, improving efficiency and productivity.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🔒</div>
+                    <h3 class="service-title">Cybersecurity</h3>
+                    <p>We help businesses protect their valuable data and systems with comprehensive cybersecurity services, including risk assessment, security audits, and implementation of security measures.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🚸</div>
+                    <h3 class="service-title">Young Training</h3>
+                    <p>Our company also have qualified personnels to educate young once who are wiling to have mastered mind in technology and provide them with certificate which they can use to work at any place including our premisses.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">☁️</div>
+                    <h3 class="service-title">Cloud Solutions</h3>
+                    <p>We provide cloud migration, management, and optimization services to help businesses leverage the full potential of cloud computing for scalability and cost-efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Portfolio</h2>
+            <p class="section-subtitle fade-in">Some of our recent projects</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img"><img src="./e-commer.png" alt="E-commerce Platform" width="100%" height="100%"></div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">E-commerce Platform</h3>
+                        <p class="portfolio-category">Web Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img"><img src="./health mobile.jpg" width="100%" height="100%" alt="Healthcare Mobile App"></div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Healthcare Mobile App</h3>
+                        <p class="portfolio-category">Mobile App Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img"><img src="./Software-and-Services-Related-to-Finance-Management-Software.png" alt="Financial Management System" width="100%" height="100%"></div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Financial Management System</h3>
+                        <p class="portfolio-category">Software Solutions</p>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img"><img src="./Logistics Tracking Platform.jpeg" alt="Logistics Tracking Platform" width="100%" height="100%"></div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Logistics Tracking Platform</h3>
+                        <p class="portfolio-category">Web & Mobile Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img"><img src="./AI-Powered Analytics Dashboard.jpeg" alt="AI-Powered Analytics Dashboard" width="100%" height="100%"></div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">AI-Powered Analytics Dashboard</h3>
+                        <p class="portfolio-category">Data Analytics</p>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-img"><img src="./Cloud Migration Project.png" alt="Cloud Migration Project" width="100%" height="100%"></div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Cloud Migration Project</h3>
+                        <p class="portfolio-category">Cloud Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <h2 class="section-title fade-in">Client Testimonials</h2>
+            <p class="section-subtitle fade-in">What our clients say about us</p>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <p class="testimonial-text">"YoungMindTech transformed our business with their innovative web development solutions. Their team was professional, responsive, and delivered a product that exceeded our expectations."</p>
+                    <h4 class="testimonial-author">Josephine Owusu</h4>
+                    <p class="testimonial-position">CEO, Apple Company</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Working with YoungMindTech on our mobile app development project was a great experience. They understood our vision and brought it to life with their expertise and creativity."</p>
+                    <h4 class="testimonial-author">Natasha Agyen</h4>
+                    <p class="testimonial-position">Marketing Director, Dk vyber Corp</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"The cybersecurity services provided by YoungMindTech have been instrumental in protecting our sensitive data and systems. Their team's knowledge and dedication are truly impressive."</p>
+                    <h4 class="testimonial-author">Michael Adyei</h4>
+                    <p class="testimonial-position">CTO, Andonko Industries</p>
+                </div>
+                <div class="testimonial-nav">
+                    <button id="prev-testimonial">←</button>
+                    <button id="next-testimonial">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Team</h2>
+            <p class="section-subtitle fade-in">Meet the experts behind our success</p>
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-member fade-in">
+                    <div class="team-member-inner">
+                        <!-- Front Side -->
+                        <div class="team-member-front">
+                            <div class="team-member-img">
+                                <img src="./ME.jpg" alt="Isaac Appiah">
+                            </div>
+                            <div class="team-member-front-info">
+                                <h3 class="team-member-name">Isaac Appiah</h3>
+                                <p class="team-member-position">CEO & Founder</p>
+                            </div>
+                        </div>
+                        <!-- Back Side -->
+                        <div class="team-member-back">
+                            <h3 class="team-member-name">Isaac Appiah</h3>
+                            <p class="team-member-bio">Visionary leader with over 10 years of experience in software development and technology innovation.</p>
+                            <div class="team-member-skills">
+                                <span class="skill">Leadership</span>
+                                <span class="skill">Strategy</span>
+                                <span class="skill">Software Dev</span>
+                            </div>
+                            <p class="team-member-contact">atomnharnhar97@gmail.com</p>
+                            <div class="team-member-social">
+                                <a href="https://wa.me/233533980571" target="_blank"><span class="fab fa-whatsapp"></span></a>
+                                <a href="https://www.linkedin.com/in/isaac-appiah-80b8ba2b9" target="_blank"><span class="fab fa-linkedin"></span></a>
+                                <a href="https://www.tiktok.com/@young_mind_tech?_t=ZM-8wWSYhPcv2c&_r=1" target="_blank"><span class="fab fa-tiktok"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="team-member fade-in" id="block">
+                    <div class="team-member-inner">
+                        <!-- Front Side -->
+                        <div class="team-member-front">
+                            <div class="team-member-img">
+                                <img src="/api/placeholder/400/320" alt="No worker-yet">
+                            </div>
+                            <div class="team-member-front-info">
+                                <h3 class="team-member-name">Position Available</h3>
+                                <p class="team-member-position">CTO</p>
+                            </div>
+                        </div>
+                        <!-- Back Side -->
+                        <div class="team-member-back">
+                            <h3 class="team-member-name">Position Available</h3>
+                            <p class="team-member-bio">We're looking for a talented CTO to join our team.</p>
+                            <div class="team-member-skills">
+                                <span class="skill">Leadership</span>
+                                <span class="skill">Technology</span>
+                                <span class="skill">Innovation</span>
+                            </div>
+                            <p class="team-member-contact">careers@youngmindtech.com</p>
+                            <div class="team-member-social">
+                                <a href="#"><span class="fab fa-linkedin"></span></a>
+                                <a href="#"><span class="fab fa-github"></span></a>
+                                <a href="#"><span class="fab fa-twitter"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="team-member fade-in" id="block">
+                    <div class="team-member-inner">
+                        <!-- Front Side -->
+                        <div class="team-member-front">
+                            <div class="team-member-img">
+                                <img src="/api/placeholder/400/320" alt="No worker-yet">
+                            </div>
+                            <div class="team-member-front-info">
+                                <h3 class="team-member-name">Position Available</h3>
+                                <p class="team-member-position">Developer</p>
+                            </div>
+                        </div>
+                        <!-- Back Side -->
+                        <div class="team-member-back">
+                            <h3 class="team-member-name">Position Available</h3>
+                            <p class="team-member-bio">Join our development team to create innovative solutions.</p>
+                            <div class="team-member-skills">
+                                <span class="skill">Coding</span>
+                                <span class="skill">Problem-Solving</span>
+                                <span class="skill">Teamwork</span>
+                            </div>
+                            <p class="team-member-contact">careers@youngmindtech.com</p>
+                            <div class="team-member-social">
+                                <a href="#"><span class="fab fa-linkedin"></span></a>
+                                <a href="#"><span class="fab fa-github"></span></a>
+                                <a href="#"><span class="fab fa-twitter"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 4 -->
+                <div class="team-member fade-in" id="block">
+                    <div class="team-member-inner">
+                        <!-- Front Side -->
+                        <div class="team-member-front">
+                            <div class="team-member-img">
+                                <img src="/api/placeholder/400/320" alt="No worker-yet">
+                            </div>
+                            <div class="team-member-front-info">
+                                <h3 class="team-member-name">Position Available</h3>
+                                <p class="team-member-position">UI/UX Designer</p>
+                            </div>
+                        </div>
+                        <!-- Back Side -->
+                        <div class="team-member-back">
+                            <h3 class="team-member-name">Position Available</h3>
+                            <p class="team-member-bio">Creative designer with an eye for detail and user-centered approach to design challenges.</p>
+                            <div class="team-member-skills">
+                                <span class="skill">UI/UX</span>
+                                <span class="skill">Figma</span>
+                                <span class="skill">User Research</span>
+                            </div>
+                            <p class="team-member-contact">careers@youngmindtech.com</p>
+                            <div class="team-member-social">
+                                <a href="#"><span class="fab fa-linkedin"></span></a>
+                                <a href="#"><span class="fab fa-dribbble"></span></a>
+                                <a href="#"><span class="fab fa-instagram"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 5 -->
+                <div class="team-member fade-in" id="block">
+                    <div class="team-member-inner">
+                        <!-- Front Side -->
+                        <div class="team-member-front">
+                            <div class="team-member-img">
+                                <img src="/api/placeholder/400/320" alt="David Osei">
+                            </div>
+                            <div class="team-member-front-info">
+                                <h3 class="team-member-name">David Osei</h3>
+                                <p class="team-member-position">Cybersecurity Expert</p>
+                            </div>
+                        </div>
+                        <!-- Back Side -->
+                        <div class="team-member-back">
+                            <h3 class="team-member-name">David Osei</h3>
+                            <p class="team-member-bio">Security specialist with expertise in threat assessment and protection systems.</p>
+                            <div class="team-member-skills">
+                                <span class="skill">Security</span>
+                                <span class="skill">Pen Testing</span>
+                                <span class="skill">Compliance</span>
+                            </div>
+                            <p class="team-member-contact">david@youngmindtech.com</p>
+                            <div class="team-member-social">
+                                <a href="#"><span class="fab fa-linkedin"></span></a>
+                                <a href="#"><span class="fab fa-twitter"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 6 -->
+                <div class="team-member fade-in" id="block">
+                    <div class="team-member-inner">
+                        <!-- Front Side -->
+                        <div class="team-member-front">
+                            <div class="team-member-img">
+                                <img src="/api/placeholder/400/320" alt="Emma Wong">
+                            </div>
+                            <div class="team-member-front-info">
+                                <h3 class="team-member-name">Emma Wong</h3>
+                                <p class="team-member-position">Data Scientist</p>
+                            </div>
+                        </div>
+                        <!-- Back Side -->
+                        <div class="team-member-back">
+                            <h3 class="team-member-name">Emma Wong</h3>
+                            <p class="team-member-bio">Analytics expert who transforms complex data into actionable business insights.</p>
+                            <div class="team-member-skills">
+                                <span class="skill">ML/AI</span>
+                                <span class="skill">Big Data</span>
+                                <span class="skill">Visualization</span>
+                            </div>
+                            <p class="team-member-contact">emma@youngmindtech.com</p>
+                            <div class="team-member-social">
+                                <a href="#"><span class="fab fa-linkedin"></span></a>
+                                <a href="#"><span class="fab fa-github"></span></a>
+                                <a href="#"><span class="fab fa-twitter"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Us</h2>
+            <p class="section-subtitle fade-in">Get in touch with us for any inquiries</p>
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> GA-399-1413, Accra</p>
+                        <p><i class="fas fa-phone-alt"></i> +233(0) 533 980 571</p>
+                        <p><i class="fas fa-envelope"></i>
+                            <a href="mailto:atomnharnhar97@gmail.com">info@youngmindtech@gmail.com</a>
+                        </p>
+                        <p><i class="fas fa-clock"></i> Monday-Friday: 9AM-6PM</p>
+                    </div>
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/12MG8Hgx3od/?mibextid=wwXIfr" target="_blank"><span class="fab fa-facebook"></span></a>
+                        <a href="https://x.com/atoasha?s=21" target="_blank"><span class="fab fa-twitter"></span></a>
+                        <a href="https://www.linkedin.com/in/isaac-appiah-80b8ba2b9" target="_blank"><span class="fab fa-linkedin"></span></a>
+                        <a href="#" target="_blank"><span class="fab fa-instagram"></span></a>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm" action="https://formspree.io/f/xyzwvorr" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Young<span>MindTech</span></div>
+                    <p>Innovative technology solutions for businesses of all sizes. We help transform and drive growth through digital innovation.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Mobile App Development</a></li>
+                        <li><a href="#services">Software Solutions</a></li>
+                        <li><a href="#services">Cybersecurity</a></li>
+                        <li><a href="#services">Data Analytics</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <p>Stay updated with our latest news and offers by subscribing to our newsletter.</p>
+                    <div class="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Your Email">
+                        <button type="submit" id="newsletter-submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-links">
+                    <a href="#home">Privacy Policy</a>
+                    <a href="#home">Terms of Service</a>
+                    <a href="#home">Sitemap</a>
+                </div>
+           
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/12MG8Hgx3od/?mibextid=wwXIfr" target="_blank"><span class="fab fa-facebook"></span></a>
+                    <a href="https://x.com/atoasha?s=21" target="_blank"><span class="fab fa-twitter"></span></a>
+                    <a href="https://www.linkedin.com/in/isaac-appiah-80b8ba2b9" target="_blank"><span class="fab fa-linkedin"></span></a>
+                    <a href="#" target="_blank"><span class="fab fa-instagram"></span></a>
+                    <a href="https://www.tiktok.com/@young_mind_tech?_t=ZM-8wWSYhPcv2c&_r=1" target="_blank"><span class="fab fa-tiktok"></span></a>
+                    <a href="https://wa.me/233533980571" target="_blank"><span class="fab fa-whatsapp"></span></a>
+                </div>
+            
+                <p>&copy; 2025 YoungMindTech. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <button id="backToTop" title="Go to top">↑</button>
+    <script src="./tech.js"></script>
+</body>
+</html>
