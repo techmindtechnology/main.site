@@ -154,7 +154,7 @@ const fadeElements = document.querySelectorAll('.fade-in');
 function checkFade() {
     fadeElements.forEach(element => {
         const elementTop = element.getBoundingClientRect().top;
-        const elementVisible = 150;
+        const elementVisible = 250;
 
         if (elementTop < window.innerHeight - elementVisible) {
             element.classList.add('visible');
